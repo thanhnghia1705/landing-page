@@ -116,7 +116,7 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <div className="min-h-dvh bg-white">
+    <div className="min-h-dvh bg-red-600">
       <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
         <div className="absolute -top-24 left-1/2 h-[32rem] w-[32rem] -translate-x-1/2 rounded-full bg-gradient-to-br from-indigo-200/50 via-sky-200/40 to-transparent blur-3xl" />
         <div className="absolute -bottom-40 right-[-6rem] h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-emerald-200/40 via-teal-200/30 to-transparent blur-3xl" />
